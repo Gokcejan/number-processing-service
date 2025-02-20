@@ -1,0 +1,5 @@
+rootProject.name = 'moneta-project'
+include 'server'
+include 'public'
+
+
