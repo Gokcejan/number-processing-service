@@ -1,7 +1,7 @@
-package cz.demo.librarymanagement.rest
+package cz.demo.monetaproject.rest
 
-import cz.demo.librarymanagement.core.CleanUpDb
-import cz.demo.librarymanagement.core.WebMockSpec
+import cz.demo.monetaproject.core.CleanUpDb
+import cz.demo.monetaproject.core.WebMockSpec
 
 class BaseSpec extends WebMockSpec implements CleanUpDb{
 

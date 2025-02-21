@@ -1,4 +1,4 @@
-package cz.demo.librarymanagement.core
+package cz.demo.monetaproject.core
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.jdbc.core.JdbcTemplate
@@ -9,8 +9,7 @@ trait CleanUpDb {
     JdbcTemplate jdbcTemplate
 
     def cleanUpDb() {
-        jdbcTemplate.execute("DELETE FROM author")
-        jdbcTemplate.execute("DELETE FROM book")
+        jdbcTemplate.execute("DELETE FROM TRANSFORMED_NUMBER")
 
     }
 

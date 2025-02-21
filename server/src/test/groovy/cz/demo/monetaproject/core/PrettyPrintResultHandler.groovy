@@ -1,4 +1,4 @@
-package cz.demo.librarymanagement.core
+package cz.demo.monetaproject.core
 
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
