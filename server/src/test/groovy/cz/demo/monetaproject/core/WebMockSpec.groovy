@@ -1,4 +1,4 @@
-package cz.demo.librarymanagement.core
+package cz.demo.monetaproject.core
 
 import groovy.transform.CompileStatic
 import org.springframework.beans.factory.annotation.Autowired

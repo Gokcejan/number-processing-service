@@ -1,4 +1,4 @@
-package cz.demo.librarymanagement.core;
+package cz.demo.monetaproject.core;
 
 import org.springframework.restdocs.constraints.ConstraintDescriptions;
 import org.springframework.restdocs.payload.FieldDescriptor;

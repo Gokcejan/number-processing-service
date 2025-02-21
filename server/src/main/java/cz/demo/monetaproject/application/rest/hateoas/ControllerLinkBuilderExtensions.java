@@ -1,4 +1,4 @@
-package cz.demo.librarymanagement.application.rest.hateoas;
+package cz.demo.monetaproject.application.rest.hateoas;
 
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 

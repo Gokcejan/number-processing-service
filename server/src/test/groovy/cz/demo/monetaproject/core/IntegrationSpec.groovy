@@ -1,4 +1,4 @@
-package cz.demo.librarymanagement.core
+package cz.demo.monetaproject.core
 
 import groovy.json.JsonSlurper
 import org.apache.groovy.json.internal.LazyMap

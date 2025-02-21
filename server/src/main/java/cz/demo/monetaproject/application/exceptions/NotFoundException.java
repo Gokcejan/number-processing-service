@@ -1,4 +1,4 @@
-package cz.demo.librarymanagement.application.exceptions;
+package cz.demo.monetaproject.application.exceptions;
 
 import static java.lang.String.format;
 

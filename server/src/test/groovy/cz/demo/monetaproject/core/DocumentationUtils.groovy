@@ -1,4 +1,4 @@
-package cz.demo.librarymanagement.core
+package cz.demo.monetaproject.core
 
 import org.springframework.restdocs.hypermedia.LinkDescriptor
 import org.springframework.restdocs.hypermedia.LinksSnippet
@@ -6,8 +6,6 @@ import org.springframework.restdocs.payload.FieldDescriptor
 import org.springframework.restdocs.payload.ResponseFieldsSnippet
 
 import static org.springframework.restdocs.hypermedia.HypermediaDocumentation.halLinks
-import static org.springframework.restdocs.hypermedia.HypermediaDocumentation.halLinks
-import static org.springframework.restdocs.hypermedia.HypermediaDocumentation.links
 import static org.springframework.restdocs.hypermedia.HypermediaDocumentation.links
 import static org.springframework.restdocs.payload.PayloadDocumentation.responseFields
 
