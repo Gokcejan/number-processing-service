@@ -16,6 +16,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @ActiveProfiles("test")
 class TransformedNumberApiSpec extends BaseSpec implements CleanUpDb {
 
+    def cleanup() {
+        cleanUpDb()
+    }
 
     def "create transformedNumber"() {
 

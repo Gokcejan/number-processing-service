@@ -9,7 +9,9 @@ trait CleanUpDb {
     JdbcTemplate jdbcTemplate
 
     def cleanUpDb() {
-        jdbcTemplate.execute("DELETE FROM TRANSFORMED_NUMBER")
+        jdbcTemplate.execute("DELETE FROM transformed_number")
+        jdbcTemplate.execute("DELETE FROM ticket")
+
 
     }
 
